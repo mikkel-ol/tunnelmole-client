@@ -1,6 +1,8 @@
-import fs from 'fs';
-import { ROOT_DIR } from '../filesystem/constants.js';
+import fs from "fs";
+import { ROOT_DIR } from "../filesystem/constants.js";
 
-const packageJson = JSON.parse(fs.readFileSync(`${ROOT_DIR}/package.json`).toString());
+const packageJson = JSON.parse(
+  fs.readFileSync(`${ROOT_DIR}/package.json`).toString(),
+);
 
-export { packageJson }
+export { packageJson };

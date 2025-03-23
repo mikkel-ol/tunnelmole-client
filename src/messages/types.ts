@@ -1,9 +1,5 @@
-const initialise = 'initialise';
-const hostnameAssigned = 'hostnameAssigned';
-const forwardedResponse = 'forwardedResponse';
+const initialise = "initialise";
+const hostnameAssigned = "hostnameAssigned";
+const forwardedResponse = "forwardedResponse";
 
-export {
-    initialise,
-    hostnameAssigned,
-    forwardedResponse
-};
+export { initialise, hostnameAssigned, forwardedResponse };

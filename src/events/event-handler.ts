@@ -1,10 +1,7 @@
-import events from 'events';
+import events from "events";
 
 const eventHandler = new events.EventEmitter();
 
-const URL_ASSIGNED = 'url-assigned';
+const URL_ASSIGNED = "url-assigned";
 
-export { 
-    eventHandler, 
-    URL_ASSIGNED 
-}
+export { eventHandler, URL_ASSIGNED };

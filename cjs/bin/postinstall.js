@@ -13,14 +13,16 @@ const installTelemetry = async () => {
   // Using axios for commonjs support and maximum backwards compatiblity with old node versions
   axios
     .post(telemetryEndpoint, {
-    type: "post-install",
-    data: {
+      type: "post-install",
+      data: {
         nodeVersion: process.version ? process.version : "Unknown",
-        platform: process.platform ? process.platform : "Unknown"
-    }
-    }).then(function () {
+        platform: process.platform ? process.platform : "Unknown",
+      },
+    })
+    .then(function () {
       // Ignore the response
-    }).catch(function () {
+    })
+    .catch(function () {
       // Ignore the error
     });
 };

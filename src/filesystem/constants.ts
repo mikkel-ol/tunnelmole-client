@@ -1,8 +1,8 @@
-import path from 'path';
+import path from "path";
 
 /**
  * This constant will make resolving files much easier
  */
-const ROOT_DIR = path.resolve('.');
+const ROOT_DIR = path.resolve(".");
 
-export { ROOT_DIR }
+export { ROOT_DIR };

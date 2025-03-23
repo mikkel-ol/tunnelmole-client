@@ -13,15 +13,15 @@ import clientDisconnect from "./src/message-handlers/client-disconnect.js";
  * Like app.ts for express, but with handlers for different message types instead of URLs
  */
 const messageHandlers = {
-    hostnameAssigned,
-    forwardedRequest,
-    hostnameAlreadyTaken,
-    invalidSubscription,
-    domainAlreadyReserved,
-    domainReservationError,
-    tooManyDomains,
-    clientMessage,
-    clientDisconnect
-}
+  hostnameAssigned,
+  forwardedRequest,
+  hostnameAlreadyTaken,
+  invalidSubscription,
+  domainAlreadyReserved,
+  domainReservationError,
+  tooManyDomains,
+  clientMessage,
+  clientDisconnect,
+};
 
 export { messageHandlers };

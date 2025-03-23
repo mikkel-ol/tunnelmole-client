@@ -1,6 +1,5 @@
-interface Headers
-{
-    [key: string]: string;
+interface Headers {
+  [key: string]: string;
 }
 
-export { Headers }
+export { Headers };

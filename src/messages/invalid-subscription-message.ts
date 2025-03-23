@@ -1,4 +1,4 @@
 export default interface InvalidSubscriptionMessage {
-    type : "invalidSubscription",
-    apiKey : string
+  type: "invalidSubscription";
+  apiKey: string;
 }

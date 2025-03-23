@@ -1,5 +1,5 @@
-const tunnelmole = require('tunnelmole/cjs');
+const tunnelmole = require("tunnelmole/cjs");
 
 tunnelmole({
-    port: 3000
+  port: 3000,
 });
